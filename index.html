@@ -1,133 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SealPro | Inflatable Sealing Solutions</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SealPro | Sealing Solutions</title>
+
+<link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
 
-<!-- ===== NAVBAR ===== -->
-<header>
+<header class="header">
     <div class="container nav">
-        <h2 class="logo">SealPro</h2>
-        <nav>
+        <h2>SealPro</h2>
+
+        <div class="menu">
             <a href="#">Home</a>
             <a href="#">Products</a>
             <a href="#">Materials</a>
             <a href="#">Contact</a>
-        </nav>
+        </div>
 
-        <div class="social">
+        <div class="contact-btn">
+            <a href="https://wa.me/8613812345678" target="_blank" class="wa">WhatsApp</a>
             <a href="https://facebook.com" target="_blank" class="fb">Facebook</a>
-            <a href="https://wa.me/your-number" target="_blank" class="wa">WhatsApp</a>
         </div>
     </div>
 </header>
 
-<!-- ===== HERO ===== -->
 <section class="hero">
-    <div class="container hero-content">
-        <div class="text">
-            <h1>HIGH PERFORMANCE<br>INFLATABLE SEALING</h1>
-            <p>Custom engineered sealing solutions for demanding industries.</p>
-            <div class="btns">
-                <a href="#" class="btn primary">View Products</a>
+    <div class="container hero-box">
+
+        <div class="hero-text">
+            <h1>INFLATABLE<br>SEALING SOLUTIONS</h1>
+            <p>High performance custom seals for industrial applications</p>
+
+            <div class="hero-btn">
+                <a href="#" class="btn main">View Products</a>
                 <a href="#" class="btn">Contact Us</a>
             </div>
         </div>
 
-        <img src="images/hero.png" alt="hero">
+        <!-- 如果图片没加载也不会崩 -->
+        <img src="images/hero.png" onerror="this.style.display='none'">
+
     </div>
 </section>
 
-<!-- ===== MATERIALS ===== -->
-<section class="materials">
-    <h2>OUR MATERIALS</h2>
+<section class="section">
+    <h2>Rubber Materials</h2>
 
     <div class="grid">
-        <div class="card">
-            <img src="images/nbr.png">
-            <h3>NBR</h3>
-        </div>
 
-        <div class="card">
-            <img src="images/epdm.png">
-            <h3>EPDM</h3>
-        </div>
+        <div class="card"><img src="images/nbr.png" onerror="this.style.display='none'"><p>NBR</p></div>
+        <div class="card"><img src="images/epdm.png" onerror="this.style.display='none'"><p>EPDM</p></div>
+        <div class="card"><img src="images/fkm.png" onerror="this.style.display='none'"><p>FKM</p></div>
+        <div class="card"><img src="images/silicone.png" onerror="this.style.display='none'"><p>Silicone</p></div>
+        <div class="card"><img src="images/ptfe.png" onerror="this.style.display='none'"><p>PTFE</p></div>
 
-        <div class="card">
-            <img src="images/fkm.png">
-            <h3>FKM</h3>
-        </div>
-
-        <div class="card">
-            <img src="images/silicone.png">
-            <h3>Silicone</h3>
-        </div>
-
-        <div class="card">
-            <img src="images/ptfe.png">
-            <h3>PTFE</h3>
-        </div>
     </div>
 </section>
 
-<!-- ===== PLASTICS ===== -->
-<section class="materials light">
-    <h2>PLASTIC MATERIALS</h2>
+<section class="section dark">
+    <h2>Inflatable Seals</h2>
 
     <div class="grid">
-        <div class="card">
-            <img src="images/plastic.png">
-            <h3>Engineering Plastics</h3>
-        </div>
+
+        <div class="card"><img src="images/inflatable1.png" onerror="this.style.display='none'"><p>Round</p></div>
+        <div class="card"><img src="images/inflatable2.png" onerror="this.style.display='none'"><p>Square</p></div>
+        <div class="card"><img src="images/inflatable3.png" onerror="this.style.display='none'"><p>D Shape</p></div>
+        <div class="card"><img src="images/inflatable4.png" onerror="this.style.display='none'"><p>Custom</p></div>
+
     </div>
 </section>
 
-<!-- ===== INFLATABLE ===== -->
-<section class="products">
-    <h2>INFLATABLE SEALING RINGS</h2>
-
-    <div class="grid">
-        <div class="card">
-            <img src="images/inflatable1.png">
-            <p>Round Seal</p>
-        </div>
-
-        <div class="card">
-            <img src="images/inflatable2.png">
-            <p>Square Seal</p>
-        </div>
-
-        <div class="card">
-            <img src="images/inflatable3.png">
-            <p>D Shape</p>
-        </div>
-
-        <div class="card">
-            <img src="images/inflatable4.png">
-            <p>Custom Seal</p>
-        </div>
-    </div>
-</section>
-
-<!-- ===== CTA ===== -->
 <section class="cta">
-    <h2>Need Custom Sealing Solution?</h2>
-    <p>Contact us now for fast quotation</p>
+    <h2>Need Custom Solution?</h2>
+    <p>Contact us via WhatsApp for fast quotation</p>
 
-    <div class="btns">
-        <a href="https://wa.me/your-number" class="btn wa">WhatsApp</a>
-        <a href="https://facebook.com" class="btn fb">Facebook</a>
-    </div>
+    <a href="https://wa.me/8613812345678" class="btn wa">WhatsApp Now</a>
 </section>
 
-<!-- ===== FOOTER ===== -->
 <footer>
-    <p>© 2026 SealPro. All rights reserved.</p>
+    <p>© 2026 SealPro</p>
 </footer>
 
 </body>
